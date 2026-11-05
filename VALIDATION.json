@@ -1,0 +1,83 @@
+{
+  "date": "2026-11-06",
+  "author": "SUNGBIN HONG",
+  "scope": "Binary aperiodic equal-length ordered pairs, length106",
+  "license": "CC BY4.0",
+  "research_and_text": "primarily AI-generated",
+  "human_contribution": [
+    "problem selection",
+    "research direction"
+  ],
+  "human_checking_and_understanding_claimed": false,
+  "human_peer_review_claimed": false,
+  "publication_priority_established": false,
+  "general_length_conjecture_solved": false,
+  "historical_first_stage": {
+    "implementations": 2,
+    "domain": 67108864,
+    "outputs": 102,
+    "exact_set_match": true
+  },
+  "fresh_corrected_primary": {
+    "domain": 67108864,
+    "units": 67108863,
+    "nonunits": 1,
+    "outputs": 102,
+    "exact_historical_set_match": true,
+    "cpu_seconds": 2664.879,
+    "maximum_partition_wall_seconds": 703.607,
+    "source_sha256": "bd567766ec3848c9da55d41e97f5c41766659fc0874f37ef447713b53a455b2d",
+    "formal_kernel": false
+  },
+  "rejected_first_mac_run": {
+    "outputs": 42,
+    "nonunits": 33554433,
+    "accepted": false,
+    "reason": "libc++ overloaded mathematical remainder, negative floating-to-unsigned128 UB"
+  },
+  "sign_layer": {
+    "orientations": 102,
+    "inconsistent": 94,
+    "complete_spaces": 8,
+    "direct_assignments_replayed": 136314944,
+    "mod64_certificate": "PASS",
+    "mod32_normalized_witnesses": 8,
+    "raw_orbit": 64
+  },
+  "lean": {
+    "version": "4.9.0",
+    "theorem_declarations": 54,
+    "one_all105_lag_mod32_witness_kernel_checked": true,
+    "global_theorem_formally_verified": false
+  },
+  "archives": [
+    {
+      "file": "native-reproduction.zip",
+      "sha256": "0d9f6ffa86bf5b14da71acd533bd5b7a338e4b4fe4d8027cabfab1b4254ee844"
+    },
+    {
+      "file": "partial-lean-formalization.zip",
+      "sha256": "18974a0b4dad08375f8492872732fc2af598e490799348d73d651fce3a317b7e"
+    }
+  ],
+  "ai_tools": [
+    {
+      "tool": "ChatGPT (Chat)",
+      "model": "GPT-6 Pro",
+      "role": "research"
+    },
+    {
+      "tool": "Gemini",
+      "model": "Gemini3.1 Pro",
+      "role": "internal review"
+    },
+    {
+      "tool": "ChatGPT (Aside)",
+      "model": "GPT-6.1 Sol Max",
+      "role": "internal review and preparation"
+    }
+  ],
+  "private_prompts_and_transcripts_included": false,
+  "third_party_pdfs_included": false,
+  "hexagon_submission_performed": false
+}
